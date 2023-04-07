@@ -1,98 +1,160 @@
-
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>Personal Website</title>
+    <title>Sohier Lotfy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/favicon.ico">
 </head>
 
 <body>
-    <table cellspacing="20">
-        <tr>
-            <td><img src="https://uploads-ssl.webflow.com/630d92a60c10d26098037362/633c3dde3bef7e6f54152138_logo1.png"
-                    alt="Sohier's profile phot"></td>
-            <td>
-                <a href="https://sohierlotfy.com/">
-                    <h1>HI, I’m Sohier Lotfy</h1>
-                </a>
-                <p><em>An ambitious littile ant, curius about too many things✨</em></p>
-                <p>I'm a software engineer who enjoys art, reading, and music</p>
-            </td>
-        </tr>
-    </table>
+    <div class="hero">
+        <img class="top-star" src="images/stars.png" alt="sparkles">
+        <img src="images/logo.png" alt="sohier's profile photo">
+        <h1>HI, I’m Sohier</h1>
+        <p>An ambitious little ant, curius about too many things✨</p>
+        <p class="subheader"><strong> I'm a UX designer and software engineer who enjoys art, reading, and
+                music</strong></p>
+        <img class="bottom-star" src="images/stars.png" alt="sparkles">
+        <img class="ant-path" src="images/ants dotted.png" alt="ant's path dotted">
 
-    <hr>
-    <h3>Self Learning</h3>
-    <ul>
-        <li>Introduction to vs code</li>
-        <li>100 days of python</li>
-        <li>Meta backend development specialization</li>
-    </ul>
-    <hr>
-    <h3>Work Experience</h3>
-    <table>
-        <tr>
-            <td>Oct 2019 - Feb 2020</td>
-            <td>Curruculum Developer | STEM Hub</td>
-        </tr>
-        <tr>
-            <td>Sep 2020 - Apr 2021</td>
-            <td>UI/UX Designer | Easy Cash</td>
-        </tr>
-        <tr>
-            <td>Aug 2021 - Feb 2023</td>
-            <td>UX Designer | First Abu Dhabi Bank</td>
-        </tr>
-    </table>
-    <hr>
-    <h3>Skills</h3>
-    <table >
-        <tr>
-            <td>
-                <table cellspacing="10">
-                    <tr>
-                        <td>Visual Design</td>
-                        <td>★★★★☆</td>
-                    </tr>
-                    <tr>
-                        <td>Prototyping</td>
-                        <td>★★★★★</td>
-                    </tr>
-                    <tr>
-                        <td>UI/UX</td>
-                        <td>★★★★★</td>
-                    </tr>
-                </table>
-            </td>
-            <td>
-                <table cellspacing="10">
-                    <tr>
-                        <td>Problem Solving</td>
-                        <td>★★★★☆</td>
-                    </tr>
-                    <tr>
-                        <td>HTML and CSS</td>
-                        <td>★★★☆☆</td>
-                    </tr>
-                    <tr>
-                        <td>Python</td>
-                        <td>★★★☆☆</td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
-    <hr>
-    <h3>Hobbies</h3>
-    <ul>
-        <li>Reading non-fiction books</li>
-        <li>watching Anime</li>
-        <li>chess</li>
-        <li>music</li>
-        <li>Biking in the park (new)</li>
-    </ul>
-    <hr>
-    <a href="contact.html">Contact me</a>
+    </div>
+
+
+    <div class="middle-container">
+        <div class="profile">
+
+            <p>“Curiosity is the engine of achievement.”
+                ― Ken Robinson</p>
+        </div>
+
+        <hr>
+
+        <div class="skills">
+            <h2>My Skills</h2>
+            <div class="skill-row">
+                <h4>Python</h4>
+                <p class="rate">★★★☆☆</p>
+            </div>
+            <div class="skill-row">
+                <h4>Visual Design</h4>
+                <p class="rate">★★★★☆</p>
+            </div>
+            <div class="skill-row">
+                <h4>UI/UX</h4>
+                <p class="rate">★★★★★</p>
+            </div>
+            <div class="skill-row">
+                <h4>Web design</h4>
+                <p class="rate">★★★☆☆</p>
+            </div>
+        </div>
+
+        <!-- <div class="Skills">
+            <h3>Skills</h3>
+            <table>
+                <tr>
+                    <td>
+                        <table cellspacing="10">
+                            <tr>
+                                <td>Visual Design</td>
+                                <td>★★★★☆</td>
+                            </tr>
+                            <tr>
+                                <td>Prototyping</td>
+                                <td>★★★★★</td>
+                            </tr>
+                            <tr>
+                                <td>UI/UX</td>
+                                <td>★★★★★</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table cellspacing="10">
+                            <tr>
+                                <td>Problem Solving</td>
+                                <td>★★★★☆</td>
+                            </tr>
+                            <tr>
+                                <td>HTML and CSS</td>
+                                <td>★★★☆☆</td>
+                            </tr>
+                            <tr>
+                                <td>Python</td>
+                                <td>★★★☆☆</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div> -->
+
+        <hr>
+
+        <div class="bottom-container">
+            <h3>Find me on</h3>
+            <a class="footer-link" href="https://github.com/soh-123">
+            <img class="social-icon" src="images/git.png" alt="git-icon">
+        </a>
+            <a class="footer-link" href="https://www.linkedin.com/in/sohierlotfy/">
+                <img class="social-icon" src="images/linkedin.png" alt="linkedin-icon">
+            </a>
+            <a class="footer-link" href="https://twitter.com/Namlah__0">
+                <img class="social-icon" src="images/twitter.png" alt="twitter-icon">
+            </a>
+            <a class="btn" href="mailto:sohier.lotfy.els@gmail.com">
+            <img class="social-icon" src="images/mail.png" alt="mail-icon">
+            </a>
+            <p>© 2023 Sohier Lotfy. </p>
+        </div>
+
+        <!-- <div class="learning">
+            <h3>Self Learning</h3>
+            <ul>
+                <li>Introduction to vs code</li>
+                <li>100 days of python</li>
+                <li>Meta backend development specialization</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <div class="Experience">
+            <h3>Work Experience</h3>
+            <table>
+                <tr>
+                    <td>Oct 2019 - Feb 2020</td>
+                    <td>Curruculum Developer | STEM Hub</td>
+                </tr>
+                <tr>
+                    <td>Sep 2020 - Apr 2021</td>
+                    <td>UI/UX Designer | Easy Cash</td>
+                </tr>
+                <tr>
+                    <td>Aug 2021 - Feb 2023</td>
+                    <td>UX Designer | First Abu Dhabi Bank</td>
+                </tr>
+            </table>
+        </div>
+
+        <hr>
+
+
+        <div class="hobbies">
+            <h3>Hobbies</h3>
+            <ul>
+                <li>Reading non-fiction books</li>
+                <li>watching Anime</li>
+                <li>chess</li>
+                <li>music</li>
+                <li>Biking in the park (new)</li>
+            </ul>
+        </div>
+
+        <hr>
+        <a href="https://github.com/soh-123">Work</a>
+        <a href="contact.html">Contact me</a> -->
 </body>
 
 </html>
